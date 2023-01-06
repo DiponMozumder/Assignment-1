@@ -43,7 +43,7 @@ color: #005FAC;
     /* text-align: center; */
     /* margin: 0 auto; */
 }
-img{
+.img-one{
     
 width: 569px;
 height: 723.3px;
@@ -69,4 +69,29 @@ padding-left: 87px;
     font-size: 16px;
     padding-top: 24px;
     padding-bottom: 16px;
+}
+/* section-two */
+.section-two{
+    display: flex;
+    text-align: center;
+}
+.sec-two-title{
+    text-align: center;
+    padding-top: 129px;
+    font-weight: 700;
+font-size: 40px;
+}
+.future-plans{
+    padding-top: 50px;
+    padding-left: 230px;
+}
+.plans{
+    font-weight: 700;
+font-size: 30px;
+}
+.to-do{
+    font-weight: 500;
+font-size: 25px;
+padding-top: 16px;
+text-align: center;
 }
