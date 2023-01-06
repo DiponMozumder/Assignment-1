@@ -1,97 +1,166 @@
-.header{
+
+.header {
     text-align: right;
     background-image: url(../images/banner/banner3.png);
     width: 1600px;
-height: 808px;
+    height: 808px;
 }
-.phillosophy{
+
+.phillosophy {
     position: absolute;
     margin: 216px 230px 364px 845px;
     font-weight: 700;
-font-size: 65px;
-width: 525px;
-height: 228px;
+    font-size: 65px;
+    width: 525px;
+    height: 228px;
 }
-.moto{
-position: absolute;
-width: 494px;
-height: 78px;
-left: 876px;
-top: 468px;
-font-weight: 400;
-font-size: 16px;
-color: #FFFFFF;
-padding-top: 24px;
-}
-.btn-primary{
+
+.moto {
     position: absolute;
-width: 160px;
-height: 64px;
-margin-top: 578px;
-margin-bottom: 166px;
-margin-left: 1210px;
-margin-right: 230px;
-padding-top: 32px;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 24px;
 }
-.btn-txt{
-padding: 20px;
-color: #005FAC;
+
+.btn-primary {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    margin-top: 578px;
+    margin-bottom: 166px;
+    margin-left: 1210px;
+    margin-right: 230px;
+    padding-top: 32px;
 }
-.section-one{
+
+.btn-txt {
+    padding: 20px;
+    color: #005FAC;
+}
+
+.section-one {
     display: flex;
     padding-top: 131px;
     /* text-align: center; */
     /* margin: 0 auto; */
 }
-.img-one{
-    
-width: 569px;
-height: 723.3px;
-padding-left: 206px;
-padding-top: 131px;
+
+.img-one {
+
+    width: 569px;
+    height: 723.3px;
+    padding-left: 206px;
+    padding-top: 131px;
 }
-.my-failure{
+
+.my-failure {
     width: 416px;
-height: 400px;
-left: 862px;
-top: 1178px;
-margin-top: 370px;
-padding-left: 87px;
+    height: 400px;
+    left: 862px;
+    top: 1178px;
+    margin-top: 370px;
+    padding-left: 87px;
 }
-.failure-title{
+
+.failure-title {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
 }
 
-.failure-desciption{
+.failure-desciption {
     font-weight: 400;
     font-size: 16px;
     padding-top: 24px;
     padding-bottom: 16px;
 }
+
 /* section-two */
-.section-two{
+.section-two {
     display: flex;
     text-align: center;
 }
-.sec-two-title{
-    text-align: center;
+
+.sec-two-title {
+    padding-left: 765px;
     padding-top: 129px;
     font-weight: 700;
-font-size: 40px;
+    font-size: 40px;
 }
-.future-plans{
+
+.future-plans {
     padding-top: 50px;
     padding-left: 230px;
 }
-.plans{
+
+.plans {
     font-weight: 700;
-font-size: 30px;
+    font-size: 30px;
 }
-.to-do{
+
+.to-do {
     font-weight: 500;
-font-size: 25px;
-padding-top: 16px;
-text-align: center;
+    font-size: 25px;
+    padding-top: 16px;
+    text-align: center;
+}
+/* section-three */
+
+
+/* gradient section */
+.gradient-section {
+    background-image: url('../images/watch.png');
+    background-image: linear-gradient(lightblue, none);
+    background-repeat: no-repeat;
+    padding-top: 130px;
+}
+
+/* styles of footer */
+.footer {
+    color: #FFFFFF;
+    display: flex;
+    background-color: #151414;
+    width: 1700px;
+    height: 577px;
+}
+
+.about {
+    padding-top: 130px;
+    padding-left: 230px;
+    width: 485px;
+    height: 317px;
+}
+
+.subscribe {
+    padding-top: 130px;
+    padding-right: 220px;
+    width: 325px;
+    height: 204px;
+    padding-left: 331px;
+}
+
+.btn-subscribe {
+    width: 170px;
+    height: 64px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.subs-title {
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 31px;
+}
+
+div form {
+    width: 325px;
+    height: 64px;
+    padding-bottom: 16px;
 }
