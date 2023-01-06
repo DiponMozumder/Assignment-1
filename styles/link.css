@@ -1,0 +1,72 @@
+.header{
+    text-align: right;
+    background-image: url(../images/banner/banner3.png);
+    width: 1600px;
+height: 808px;
+}
+.phillosophy{
+    position: absolute;
+    margin: 216px 230px 364px 845px;
+    font-weight: 700;
+font-size: 65px;
+width: 525px;
+height: 228px;
+}
+.moto{
+position: absolute;
+width: 494px;
+height: 78px;
+left: 876px;
+top: 468px;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+padding-top: 24px;
+}
+.btn-primary{
+    position: absolute;
+width: 160px;
+height: 64px;
+margin-top: 578px;
+margin-bottom: 166px;
+margin-left: 1210px;
+margin-right: 230px;
+padding-top: 32px;
+}
+.btn-txt{
+padding: 20px;
+color: #005FAC;
+}
+.section-one{
+    display: flex;
+    padding-top: 131px;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+}
+img{
+    
+width: 569px;
+height: 723.3px;
+padding-left: 206px;
+padding-top: 131px;
+}
+.my-failure{
+    width: 416px;
+height: 400px;
+left: 862px;
+top: 1178px;
+margin-top: 370px;
+padding-left: 87px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.failure-desciption{
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
