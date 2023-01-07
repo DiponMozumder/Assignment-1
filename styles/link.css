@@ -71,6 +71,7 @@
     font-weight: 700;
     font-size: 40px;
     color: #151414;
+    padding-bottom: 24px;
 }
 
 .failure-desciption {
@@ -78,6 +79,10 @@
     font-size: 16px;
     padding-top: 24px;
     padding-bottom: 16px;
+    color: #444343;
+}
+section ul{
+    color: #444343;
 }
 
 /* section-two */
@@ -113,7 +118,7 @@
 .section-three{
     background-image: url('../images/Notes.webp');
     background-repeat: no-repeat;
-    width: 30%;
+    width: 1500px;
 height: 30%;
 padding: 200px;
 text-align: center;
@@ -141,10 +146,14 @@ position: absolute;
 
 }
 .prac{
-    background-image: url('../images/watch.png');
+    /* background-image: url('../images/watch.png'); */
+    /* background-image: linear-gradient(to right, rgba(0, 251, 255, 0.148) , rgba(0, 140, 255, 0)); */
+    background-image:
+    linear-gradient(to right, rgba(245, 246, 252, 0.779),rgba(61, 117, 19, 0.226)),
+    url('../images/watch.png');
     background-repeat: no-repeat;
     width: 1140px;
-    height: 400px;
+    height: 300px;
     position: absolute;
     margin-top: 100px;
     margin-left: 100px;
@@ -160,6 +169,7 @@ width: 459px;
 height: 94px;
 padding-left: 100px;
 padding-top: 50px;
+color: blue;
 
 }
 .grad-btn{
@@ -171,9 +181,6 @@ padding-top: 50px;
 .ti{
     padding-left: 120px;
     padding-top: 200px;
-}
-.btn-txt{
-    padding: 15px;
 }
 
 /* styles of footer */
