@@ -6,7 +6,7 @@
     height: 808px;
 }
 
-.phillosophy {
+.header-title {
     position: absolute;
     margin: 216px 230px 364px 845px;
     font-weight: 700;
@@ -15,7 +15,7 @@
     height: 228px;
 }
 
-.moto {
+.header-description {
     position: absolute;
     width: 494px;
     height: 78px;
@@ -42,7 +42,7 @@
     padding: 20px;
     color: #005FAC;
 }
-
+/* section one */
 .section-one {
     display: flex;
     padding-top: 131px;
@@ -50,7 +50,7 @@
     /* margin: 0 auto; */
 }
 
-.img-one {
+.img-sec-one {
 
     width: 569px;
     height: 723.3px;
@@ -133,19 +133,7 @@ margin-top: 50px;
 }
 
 /* gradient section */
-.gradient-section {
-    background-image: url('../images/watch.png');
-  background-image: linear-gradient( to right, white, none);
-    background-repeat: no-repeat;
-    padding-top: 200px;
-    margin-top: 100px;
-    margin-left: 100px;
-    width: 1140px;
-height: 300px;
-position: absolute;
-
-}
-.prac{
+.l-grad{
     /* background-image: url('../images/watch.png'); */
     /* background-image: linear-gradient(to right, rgba(0, 251, 255, 0.148) , rgba(0, 140, 255, 0)); */
     background-image:
@@ -159,7 +147,7 @@ position: absolute;
     margin-left: 100px;
     
 }
-.grad-title{
+.grad-text{
   
     text-align: top;
     font-weight: 700;
@@ -178,7 +166,7 @@ color: blue;
     padding: 20px;
 
 }
-.ti{
+.l-grad-btn{
     padding-left: 120px;
     padding-top: 200px;
 }
@@ -227,7 +215,4 @@ div form {
     width: 325px;
     height: 64px;
     padding-bottom: 16px;
-}
-.sf{
-    padding: 20px;
 }
