@@ -1,4 +1,3 @@
-
 .header {
     text-align: right;
     background-image: url(../images/banner/banner3.png);
@@ -42,6 +41,7 @@
     padding: 20px;
     color: #005FAC;
 }
+
 /* section one */
 .section-one {
     display: flex;
@@ -81,7 +81,8 @@
     padding-bottom: 16px;
     color: #444343;
 }
-section ul{
+
+section ul {
     color: #444343;
 }
 
@@ -114,59 +115,62 @@ section ul{
     padding-top: 16px;
     text-align: center;
 }
+
 /* section-three */
-.section-three{
+.section-three {
     background-image: url('../images/Notes.webp');
     background-repeat: no-repeat;
     width: 1500px;
-height: 30%;
-padding: 200px;
-text-align: center;
-color: black;
-margin-left: 100px;
-margin-top: 50px;
-}             
-.sec-three-title{
+    height: 30%;
+    padding: 200px;
+    text-align: center;
+    color: black;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.sec-three-title {
     font-weight: 700;
     font-size: 40px;
 
 }
 
 /* gradient section */
-.l-grad{
-    /* background-image: url('../images/watch.png'); */
-    /* background-image: linear-gradient(to right, rgba(0, 251, 255, 0.148) , rgba(0, 140, 255, 0)); */
+.l-grad {
     background-image:
-    linear-gradient(to right, rgba(245, 246, 252, 0.779),rgba(61, 117, 19, 0.226)),
-    url('../images/watch.png');
+        linear-gradient(to right, rgba(245, 246, 252, 0.779), rgba(61, 117, 19, 0.226)),
+        url('../images/watch.png');
     background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
     position: absolute;
     margin-top: 100px;
     margin-left: 100px;
-    
-}
-.grad-text{
-  
-    text-align: top;
-    font-weight: 700;
-font-size: 40px;
-position: absolute;
-width: 459px;
-height: 94px;
-padding-left: 100px;
-padding-top: 50px;
-color: blue;
 
 }
-.grad-btn{
+
+.grad-text {
+
+    text-align: top;
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+    width: 459px;
+    height: 94px;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: blue;
+
+}
+
+.grad-btn {
     width: 160px;
     height: 64px;
     padding: 20px;
 
 }
-.l-grad-btn{
+
+.l-grad-btn {
     padding-left: 120px;
     padding-top: 200px;
 }
@@ -216,3 +220,4 @@ div form {
     height: 64px;
     padding-bottom: 16px;
 }
+/* finished */
