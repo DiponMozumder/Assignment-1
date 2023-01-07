@@ -110,14 +110,70 @@
     text-align: center;
 }
 /* section-three */
+.section-three{
+    background-image: url('../images/Notes.webp');
+    background-repeat: no-repeat;
+    width: 30%;
+height: 30%;
+padding: 200px;
+text-align: center;
+color: black;
+margin-left: 100px;
+margin-top: 50px;
+}             
+.sec-three-title{
+    font-weight: 700;
+    font-size: 40px;
 
+}
 
 /* gradient section */
 .gradient-section {
     background-image: url('../images/watch.png');
-    background-image: linear-gradient(lightblue, none);
+  background-image: linear-gradient( to right, white, none);
     background-repeat: no-repeat;
-    padding-top: 130px;
+    padding-top: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 1140px;
+height: 300px;
+position: absolute;
+
+}
+.prac{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 400px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+.grad-title{
+  
+    text-align: top;
+    font-weight: 700;
+font-size: 40px;
+position: absolute;
+width: 459px;
+height: 94px;
+padding-left: 100px;
+padding-top: 50px;
+
+}
+.grad-btn{
+    width: 160px;
+    height: 64px;
+    padding: 20px;
+
+}
+.ti{
+    padding-left: 120px;
+    padding-top: 200px;
+}
+.btn-txt{
+    padding: 15px;
 }
 
 /* styles of footer */
@@ -127,6 +183,7 @@
     background-color: #151414;
     width: 1700px;
     height: 577px;
+    margin-top: 500px;
 }
 
 .about {
@@ -163,4 +220,7 @@ div form {
     width: 325px;
     height: 64px;
     padding-bottom: 16px;
+}
+.sf{
+    padding: 20px;
 }
